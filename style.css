@@ -1,6 +1,70 @@
 *{
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container {
+    background-color:#1a232f;
+    color: white;
+    display: flex;
+    height: 400px;
+    position: relative;
+}
+
+
+.side-a, .side-b {
+    font-size: 1.1rem;
+    width: 50%;
+    height: 300px;
+    background-color: #1a232f;
+}
+
+.side-a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side-a span {
+    position: absolute;
+    margin-right: 350px;
+    top: 0;
+}
+.side-a p {
+    width: 450px;
+}
+
+.side-b {
+    color: white;
+}
+
+.side-b a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.hero-title {
+    width: 500px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 15px 20px;
+    margin-right: 370px;
+    margin-top: 10px;
+}
+
+.img {
+    width: 500px;
+    height: 250px;
+    background-color: lightgray;
+    margin-top: 50px;
+}
