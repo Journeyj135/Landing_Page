@@ -1,18 +1,20 @@
 *{
     font-family: "Roboto";
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 
 .container {
     background-color:#1a232f;
-    margin-bottom: 30px;
     color: white;
     display: flex;
     height: 400px;
+    margin-bottom: 30px;
+    max-width: 100%;
     position: relative;
+    
 }
 
 
@@ -35,7 +37,7 @@
     top: 0;
 }
 .side-a p {
-    width: 450px;
+    max-width: 450px;
 }
 
 .side-b {
@@ -129,12 +131,20 @@
     display: flex;
     font-size: 1.5rem;
     justify-content: space-around;
-    margin: 50px 50px;
-    padding: 50px;
+    margin: 100px 80px;
+    padding: 50px 30px;
 }
 button {
     background-color: blue;
     border: 1px solid white;
     color: white;
     padding: 10px;
+} 
+
+.footer {
+    background-color: #1a232f;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px;
 }
