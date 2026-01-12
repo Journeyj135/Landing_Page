@@ -4,9 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    width: 100%;
-}
+
 
 .container {
     background-color:#1a232f;
@@ -122,4 +120,21 @@ body {
     position: relative;
     left: 200px;
     top: 25px;
+}
+
+.cta-section {
+    background-color: blue;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-around;
+    margin: 50px 50px;
+    padding: 50px;
+}
+button {
+    background-color: blue;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
 }
