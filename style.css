@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    width: 100%;
+}
 
 .container {
     background-color:#1a232f;
@@ -88,7 +91,7 @@
 }
 
 .boxes {
-    border: 4px solid rgb(11, 126, 220);
+    border: 3px solid rgb(11, 126, 220);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -98,4 +101,25 @@
 .text-un-img {
     text-align: center;
     width: 155px;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+}
+.quote-container p {
+    color: #1f2937;
+    font-family: "Verdana";
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 570px;
+}
+
+.god {
+    font-weight: 900;
+    position: relative;
+    left: 200px;
+    top: 25px;
 }
